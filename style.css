@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Poppins:wght@400;500;600;700&display=swap');
+
+
+:root {
+    --poppins: 'Poppins', sans-serif;
+    --lato: 'Lato', sans-serif;
+    --light: #f9f9f9;
+    --blue: #3c91e6;
+    --light-blue: #cfe8ff;
+}
+
+body ,html{
+    font-family: var(--poppins);
+    font-size: 12px;
+    background-image: url(asset/wp2406475-dark-web-wallpapers.jpg);
+    background-size: cover;
+    height: 100%;
+    font-weight: 400;
+}
+
+
+.container{
+    display: flex; 
+    height: 100%;
+    align-items: center;
+    
+}
+
+
+.login-form{
+    height: 500px;
+    width: 430px;
+    padding: 0 35px;
+    border: none;
+    background: rgba(255, 255, 255, 0.2); /* Transparansi */
+    backdrop-filter: blur(10px); /* Efek blur */
+    border-radius: 15px;
+    color: white;
+    
+}
+
+input[type="email"],
+input[type="password"] {
+    border-radius: 20px;
+}
+
+
+.btn-login{
+    height: 35px;
+    border-radius: 20px;
+    font-weight: 700;
+}
